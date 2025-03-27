@@ -1,0 +1,22 @@
+@import "tailwindcss";
+@import "tailwindcss";
+@custom-variant light (&:where([data-theme=light], [data-theme=light] *));
+
+@font-face {
+    font-family: vazir;
+    font-style: normal;
+    font-weight: 500;
+    src: url("fonts/vazir/Vazir.woff") format("woff"),
+        url("fonts/vazir/Vazir.woff2") format("woff2"),
+        url("fonts/vazir/Vazir.ttf") format("truetype"),
+    ;
+}
+
+@theme {
+    /* fonts */
+    --font-vaz: "vazir";
+
+    /* colors */
+    --color-black: #252525;
+    --color-purple: #6C63FF;
+}
